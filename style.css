@@ -72,7 +72,8 @@ container{
     color:#e5e7eb;
     background-color: #6f7072;
     align-items: center;
-    padding:4%;
+    padding:6%;
+    justify-content: flex-end;
 }
 p{
     flex-wrap: wrap;
@@ -84,5 +85,8 @@ p{
     display: flex;
     margin-top: 6%;
     margin-bottom: 6%;
+    justify-content: flex-end;
+    margin-right: 110px;
+    justify-content: space-between;
 }
 
