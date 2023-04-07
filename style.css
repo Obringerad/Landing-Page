@@ -1,5 +1,6 @@
 *{
- 
+    margin: 0px;
+    padding: 0px;
     font-family: roboto;
 }
 
@@ -51,7 +52,7 @@ li{
     margin: 10px;
 }
 
-button{
+.button1{
     background-color: #3882f6;
     color: white;
     max-width: 80px;
@@ -118,4 +119,49 @@ img{
     margin: 0px;
 }
 
+.quote{
+   color: #1f2937;
+   font-size: 36px;
+   justify-content: center;
+   align-content: center;
+   padding: 10% 10% 2% 10%;
+}
 
+em{
+    font-weight: 100;
+}
+
+.part3{
+    background-color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.quoter{
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: large;
+    justify-content: flex-end;
+    padding: 0px;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+.blue{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+    padding: 3% 5%;
+    align-items: center;
+}
+
+.button4{
+    background-color: #3882f6;
+    border: solid white;
+    color: #eeee;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
